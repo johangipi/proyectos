@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora area y perimetros</title>
+</head>
+<body>
+    <h2>Calculadora de perímetro</h2>
+
+    <p>Selecciona una figura:</p>
+    
+    <select id="figuraPerimetro" onchange="mostrarCamposPerimetro()">
+      <option value="cuadrado">Cuadrado</option>
+      <option value="rectangulo">Rectángulo</option>
+      <option value="triangulo">Triángulo</option>
+      <option value="circulo">Círculo</option>
+    </select>
+    
+    <div id="camposPerimetro"></div>
+    
+    <button onclick="calcularPerimetro()">Calcular perímetro</button>
+    
+   <br> <p id="resultadoPerimetro"></p>
+
+    <br><h2>calculadora de area</h2>
+
+    <p>Selecciona una figura:</p>
+    
+    <select id="figuraArea" onchange="mostrarCamposArea()">
+      <option value="cuadrado">Cuadrado</option>
+      <option value="rectangulo">Rectángulo</option>
+      <option value="triangulo">Triángulo</option>
+      <option value="circulo">Círculo</option>
+    </select>
+    
+    <div id="camposArea"></div>
+    
+    <button onclick="calcularArea()">Calcular area</button>
+    
+    <p id="resultadoArea"></p>
+    
+
+    <script src="perimetro.js"></script>
+</body>
+</html>
