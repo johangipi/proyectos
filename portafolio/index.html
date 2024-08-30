@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!--menu encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Johan</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#Curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+    </div>
+
+    <!--seccion inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/johan.jpg" alt="">
+            </div>
+            <h1>Johan David Giraldo</h1>
+            <h2>Tecnologo analisis y desarrollo de software</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--seccion sobremi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-section">
+            <h2>Sobre mi</h2>
+            <p><span>Hola, soy Johan Giraldo. </span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti doloremque sit aliquam nihil, voluptatem quod officia quaerat recusandae exercitationem, esse quisquam eos animi maiores. Veniam voluptatum fugit sequi corporis impedit?</p>
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños:</strong>
+                            22/12/2002
+                        </li>
+                        <li>
+                            <strong>Telefono:</strong>
+                            3214822320
+                        </li>
+                        <li>
+                            <strong>Whatsapp:</strong>
+                            3219805584
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            johangiraldo239@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website:</strong>
+                            www.mi Portafolio.com
+                        </li>
+                        <li>
+                            <strong>Direccion:</strong>
+                            Cll5 sur#19a-05
+                        </li>
+                        <li>
+                            <strong>Cargo:</strong>
+                            Desarrollador
+                        </li>
+                    </ul>
+                </div>
+                
+                <!--intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-book-open-reader"></i>
+                            <span>Leer</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>Ejercitarme</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    <button>
+        <div class="overlay">
+            <i class="fa-solid fa-download"></i>
+            <strong>  Descargar </strong>
+            
+        </div>
+    </button>
+    </section>
+    
+    <!--seccion skills-->
+    <section id="skills" class="skills">
+        <div class="contenido-skills">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--technicals skills-->
+                <div class="col">
+                    <h3>Technicals Skills</h3>
+                    <div class="skill">
+                        <span>Html y CSS</span>
+                        <div class="barra-skills">
+                            <div class="progreso Htmlcss">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skills">
+                            <div class="progreso Java">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Mysql</span>
+                        <div class="barra-skills">
+                            <div class="progreso Mysql">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skills">
+                            <div class="progreso Js">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!--professional skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skills">
+                            <div class="progreso comunicacion">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skills">
+                            <div class="progreso Trabajo">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skills">
+                            <div class="progreso creatividad">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyecto logistico</span>
+                        <div class="barra-skills">
+                            <div class="progreso proyecto">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    
+
+
+    </section>
+
+    <!--seccion Curriculum-->
+    <section id="Curriculum" class="Curriculum">
+        <div class="contenido-curriculum">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Analisis y desarrollo de software</h4>
+                        <span class="casa">Servicio Nacional de Aprendizaje</span>
+                        <span class="fecha">2023 - 2025</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita molestias nemo quos sunt amet iusto rem aliquam distinctio, delectus itaque tempore assumenda in quibusdam. Consequuntur non asperiores doloribus impedit earum?</p>
+                        <div class="conector">
+                            <div class="circulo"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>frontend</h4>
+                        <span class="casa">Servicio Nacional de Aprendizaje</span>
+                        <span class="fecha">2023 - 2025</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita molestias nemo quos sunt amet iusto rem aliquam distinctio, delectus itaque tempore assumenda in quibusdam. Consequuntur non asperiores doloribus impedit earum?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+
+                    </div>
+                    <div class="item der">
+                        <h4>bakend</h4>
+                        <span class="casa">Servicio Nacional de Aprendizaje</span>
+                        <span class="fecha">2023 - 2025</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita molestias nemo quos sunt amet iusto rem aliquam distinctio, delectus itaque tempore assumenda in quibusdam. Consequuntur non asperiores doloribus impedit earum?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+
+                    </div>
+                    <div class="item der">
+                        <h4>Gestion bases de datos</h4>
+                        <span class="casa">Servicio Nacional de Aprendizaje</span>
+                        <span class="fecha">2023 - 2025</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita molestias nemo quos sunt amet iusto rem aliquam distinctio, delectus itaque tempore assumenda in quibusdam. Consequuntur non asperiores doloribus impedit earum?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--SECCION PORTAFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-portfolio">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="imagenes/interfaz.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Interfaz Responsive</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/registro.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Registro de usuarios</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/cam-contra.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Iniciar sesion</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-contacto">
+            <h2>CONTACTO</h2>
+            <DIV class="fila">
+                <!--formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Telefono">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="mensaje"></textarea>
+                    <button>
+                        Enviar mensaje  <i class="fa-regular fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="imagenes/maps.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                 Colombia (Madrid/Cundinamarca)
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                 Llamame: 3214822320
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                 Email: johangiraldo239@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </DIV>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
