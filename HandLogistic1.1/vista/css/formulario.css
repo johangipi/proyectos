@@ -1,0 +1,61 @@
+form{    
+    margin: auto;
+    width: 400px;
+    height: 450px;
+    margin-top: 50px;
+    border: 1px solid aliceblue;
+    padding: 29px;
+    box-shadow: 3px 8px 10px -2px lightgrey;
+    border-radius: 6px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.formProducto{
+    width: 400px;
+    height: 600px;
+}
+
+input {
+    width: 100%;
+    border: 1px solid black;
+}
+
+select {
+    width: 100%;
+    border: 1px solid black;
+}
+
+button {
+    background: #9bb9d4;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 200px;
+    padding: 6px;
+}
+
+button:hover{
+    background: green;
+    
+}
