@@ -1,0 +1,9 @@
+{ 
+    "autoload": { 
+        "psr-4": { 
+            "controlador\\": "src/controlador/", 
+            "modelo\\": "src/modelo/", 
+            "conexion\\": "src/conexion/" 
+        } 
+    } 
+}
